@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>LIST KAMEN MAKAZE</title>
+</head>
+<body>
+        <audio id="myAudio" src="mp3/music.mp3" autoplay muted>
+            </audio>
+    <header><h1>LIST - KAMEN - MAKAZE JS DOM GAME</h1></header>
+
+    <div class="scoreboard">
+        <div id="user-label" class="badge">IGRAČ</div>
+        <div id="comp-label" class="badge">BOT</div>
+        <span id="user-score">0 </span> : <span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p id="result-text"></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="p">
+            <img src="img/list.png" alt="">
+        </div>
+        <div class="choice" id="r">
+                <img src="img/kamen.png" alt="">
+            </div>
+        <div class="choice" id="s">
+                <img src="img/makaze.png" alt="">
+            </div>
+    </div>
+
+    <p id="action-message">Povucite potez!</p>
+    <footer><h4>Copyright &copy; Emir Čerim, novembar 2019.</h4></footer>
+    <script src="app.js"></script>
+</body>
+</html>
